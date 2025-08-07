@@ -1,0 +1,7 @@
+﻿services:
+  personalcloudstore:
+    image: personalcloudstore
+    build:
+      context: .
+      dockerfile: PersonalCloudStore/Dockerfile
+
